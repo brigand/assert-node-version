@@ -1,5 +1,5 @@
 {
-  "name": "assert-node-version",
+  "name": "@brigand/assert-node-version",
   "version": "1.0.3",
   "description": "Asserts the node version against one from the package.json or .nvmrc file",
   "main": "index.js",

@@ -8,16 +8,16 @@ in the package.json or .nvmrc file.
 // directory can be a directory which is used to lookup the node version
 // `process.cwd()` is used as default directory
 // The method throws an error if the version isn't satisfied
-require('assert-node-version')([directory])
+require('@brigand/assert-node-version')([directory])
 ```
 
 When using `import` statements, you may prefer to import the 'auto' module which does the assertion
 without requiring a function call.
 
 ```javascript
-import 'assert-node-version/auto';
+import '@brigand/assert-node-version/auto';
 
 // or
-require('assert-node-version/auto');
+require('@brigand/assert-node-version/auto');
 ```
 
