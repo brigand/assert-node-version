@@ -10,3 +10,14 @@ in the package.json or .nvmrc file.
 // The method throws an error if the version isn't satisfied
 require('assert-node-version')([directory])
 ```
+
+When using `import` statements, you may prefer to import the 'auto' module which does the assertion
+without requiring a function call.
+
+```javascript
+import 'assert-node-version/auto';
+
+// or
+require('assert-node-version/auto');
+```
+
