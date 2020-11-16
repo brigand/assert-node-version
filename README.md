@@ -21,3 +21,7 @@ import '@brigand/assert-node-version/auto';
 require('@brigand/assert-node-version/auto');
 ```
 
+## Version 2.x
+
+In version 2, if the version is only digits and periods, it will be interpreted as if it began
+with a caret (i.e. semver compatible). Prefix the version with an `=` to get the 1.x behavior.
